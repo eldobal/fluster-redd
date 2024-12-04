@@ -2,9 +2,8 @@
  * Created by Alfonso Cejudo, Wednesday, July 24th 2019.
  */
 
-import 'package:fluster/fluster.dart';
-import 'package:fluster/src/base_cluster.dart';
-import 'package:fluster/src/clusterable.dart';
+import 'package:fluster_redd/fluster.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 void main() {
   const currentZoom = 10;
@@ -58,6 +57,8 @@ void main() {
 class MapMarker extends Clusterable {
   String? locationName;
   String? thumbnailSrc;
+  void Function()? onMarkerTap;
+  InfoWindow? infoWindow;
 
   MapMarker(
       {this.locationName,
@@ -68,6 +69,7 @@ class MapMarker extends Clusterable {
       clusterId,
       pointsSize,
       markerId,
+      infoWindow,
       childMarkerId})
       : super(
             latitude: latitude,
@@ -76,5 +78,6 @@ class MapMarker extends Clusterable {
             clusterId: clusterId,
             pointsSize: pointsSize,
             markerId: markerId,
-            childMarkerId: childMarkerId);
+            childMarkerId: childMarkerId,
+            infoWindows: infoWindow);
 }

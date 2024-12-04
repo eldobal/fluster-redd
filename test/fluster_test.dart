@@ -4,8 +4,7 @@
 
 import 'package:test/test.dart';
 
-import 'package:fluster/fluster.dart';
-import 'package:fluster/src/clusterable.dart';
+import 'package:fluster_redd/fluster.dart';
 
 import 'common.dart';
 
