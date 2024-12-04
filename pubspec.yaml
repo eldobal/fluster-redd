@@ -1,7 +1,7 @@
 name: fluster_redd
 description: A geospatial point clustering library for Dart to help provide spacing between markers in mapping solutions.
 version: 1.2.0
-homepage: https://github.com/alfonsocejudo/fluster
+homepage: https://github.com/eldobal/fluster-redd
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
