@@ -1,7 +1,6 @@
 /*
  * Created by Alfonso Cejudo, Sunday, July 21st 2019.
  */
-import 'package:google_maps/google_maps.dart';
 
 class BaseCluster {
   double? x;
@@ -19,5 +18,5 @@ class BaseCluster {
   /// For clusters that wish to display one representation of its children.
   String? childMarkerId;
 
-  InfoWindow? infoWindow;
+  dynamic infoWindow;
 }

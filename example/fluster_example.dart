@@ -3,7 +3,6 @@
  */
 
 import 'package:fluster_redd/fluster.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 void main() {
   const currentZoom = 10;
@@ -58,7 +57,7 @@ class MapMarker extends Clusterable {
   String? locationName;
   String? thumbnailSrc;
   void Function()? onMarkerTap;
-  InfoWindow? infoWindow;
+  dynamic infoWindow;
 
   MapMarker(
       {this.locationName,

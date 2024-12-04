@@ -4,10 +4,9 @@ version: 1.2.0
 homepage: https://github.com/eldobal/fluster-redd
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dev_dependencies:
   pedantic: ^1.7.0
   mockito: ^5.0.2
   test: ^1.6.0
-  google_maps_flutter:

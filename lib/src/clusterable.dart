@@ -2,8 +2,6 @@
  * Created by Alfonso Cejudo, Wednesday, July 24th 2019.
  */
 
-import 'package:google_maps_flutter/google_maps_flutter.dart';
-
 abstract class Clusterable {
   /// Either an individual data point's latitude or the center point latitude of
   /// a cluster's children.
@@ -30,7 +28,7 @@ abstract class Clusterable {
   /// Useful for representing a cluster by referencing one of its children.
   String? childMarkerId;
 
-  InfoWindow? infoWindows;
+  dynamic infoWindows;
 
   Clusterable(
       {this.latitude,
