@@ -19,6 +19,7 @@ class, which includes necessary information such as latitude and longitude:
 class MapMarker extends Clusterable {
   String locationName;
   String thumbnailSrc;
+  
 
   MapMarker(
       {this.locationName,

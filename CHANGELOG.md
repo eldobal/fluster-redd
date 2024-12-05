@@ -1,3 +1,7 @@
+## [1.2.1]
+
+- remove google maps dependency
+
 ## [1.2.0] - 2021-04-23
 
 - Added Dart null safety feature

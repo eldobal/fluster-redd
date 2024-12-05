@@ -1,8 +1,6 @@
 /*
  * Created by Alfonso Cejudo, Wednesday, July 24th 2019.
  */
-
-import 'package:fluster_redd/src/fluster.dart';
 import 'package:test/test.dart';
 
 import 'package:fluster_redd/fluster.dart';

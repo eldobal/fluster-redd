@@ -1,6 +1,6 @@
 name: fluster_redd
-description: A geospatial point clustering library for Dart to help provide spacing between markers in mapping solutions.
-version: 1.2.0
+description: Solucion de clustes de marcadores Google Maps en Flutter para Redd SYSTEMS
+version: 1.2.1
 homepage: https://github.com/eldobal/fluster-redd
 
 environment:
